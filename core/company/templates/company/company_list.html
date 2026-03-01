@@ -1,0 +1,15 @@
+{% extends "company/base.html" %}
+
+{% block title %}
+    Companies
+{% endblock title %}
+
+ {% block content %}
+
+    {% for obj in object_list %}
+        <li> {{ forloop.counter }}. {{ obj.name }}</li>
+    {% empty %}
+    <li>No items found.</li>
+    {% endfor %}
+
+{% endblock content %}

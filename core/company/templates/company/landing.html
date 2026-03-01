@@ -1,0 +1,18 @@
+{% extends 'company/base.html' %}
+
+{% block title %}Hire Top Talent - Partner with Us{% endblock %}
+
+{% block content %}
+<div class="row align-items-center py-5">
+    <div class="col-lg-6">
+        <h1 class="display-4 fw-bold">Scale your team with the best talent in Vietnam.</h1>
+        <p class="lead text-muted">Join hundreds of companies using our platform to find, vet, and hire professionals. Register your company today to get started.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="{% url 'company:onboarding' %}" class="btn btn-primary btn-lg px-4 me-md-2">Apply for Onboarding</a>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <img src="https://img.freepik.com/free-vector/hiring-concept-illustration_114360-616.jpg" class="img-fluid rounded" alt="Recruitment Illustration">
+    </div>
+</div>
+{% endblock %}
