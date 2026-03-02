@@ -13,6 +13,10 @@ __pycache__/
 .env
 db.sqlite3
 local_settings.py
+settings.py
+local.py
+config/settings/local.py
+db.sqlite3
 
 # Media and Static (usually ignored in dev)
 media/
